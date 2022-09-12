@@ -1,0 +1,183 @@
+/* //  .register {
+//    width: 100vw;
+//    height: 100vh;
+//    background: linear-gradient(
+//        to bottom,
+//        rgba(16, 78, 93, 0.886) 0%,
+//        rgb(1, 5, 30) 100%
+//      ),
+//      url("https://global-uploads.webflow.com/60a12e37dfec46f25d8ad844/610c390dd5f57386cd60fd29_Compliance%402x-p-2000.png");
+//    background-size: cover;
+//    display: flex;
+//    flex-direction: column;
+
+//    align-items: center;
+
+//    .top {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+      
+//    }
+
+//    .container {
+//      display: flex;
+//      flex-direction: column;
+//      align-items: center;
+//      justify-content: center;
+//      color: white;
+//      margin-top: 10px;
+//      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+//      h1 {
+//        font-size: 35px;
+//      }
+
+//      h2 {
+//        margin: 10px;
+//      }
+
+//      p {
+//        font-size: 15px;
+//      }
+//      form {
+//        display: flex;
+//        justify-content: center;
+//        align-items: center;
+//        flex-direction: column;
+//       color: black;
+//      }
+
+//      input {
+//        width: 200%;
+//        padding: 10px;
+//        margin: 5px;
+//      }
+
+//      span {
+//        color: white;
+//        font-size: large;
+//        margin-top: 10px;
+//      }
+//      button {
+//        width: 200%;
+//      }
+//      .buttons {
+//       color: white;
+//       cursor: pointer;
+//       font-size: large;
+//     }
+//     .buttons:hover {
+//       color: rgb(72, 231, 234);
+//     }
+  
+//    }
+//  }  */
+.register {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.886) 0%,
+    rgb(1, 5, 30) 100%
+  );
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 0px;
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.input {
+  margin: 10px;
+  padding: 10px;
+  width: 200%;
+}
+.h1 {
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+}
+
+.span {
+  color: white;
+  font-size: large;
+  margin-top: 10px;
+}
+
+button {
+  width: 200%;
+}
+.buttons {
+  color: white;
+  cursor: pointer;
+  font-size: large;
+}
+@media only screen and (max-width: 540px) {
+  body{
+    background-color: black;
+  }
+  .top {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  body{
+    background-color: black;
+  }
+  .input {
+    width: 150%;
+    padding: 5px;
+  }
+  button {
+    width: 150%;
+  }
+  .h1 {
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+  }
+  .top {
+    margin-top: 90px;
+  }
+}
+
+@media only screen and (max-width: 354px) {
+  .input {
+    width: 100%;
+  }
+  button {
+    width: 100%;
+  }
+  .text {
+    font-size: 14px;
+  }
+ 
+}
+@media only screen and (max-width: 280px) {
+  .top {
+    margin-top: 200px;
+  }
+}

@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,500;1,500&family=Roboto:ital,wght@1,900&family=Rubik:ital,wght@0,500;0,600;0,800;1,400;1,500&family=Ubuntu&family=Urbanist:ital,wght@1,200&display=swap");
+
+.product1 {
+  color: white;
+  background-color: black;
+  height: 100vh;
+}
+.topbar1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+.tittle1 {
+  text-align: center;
+  margin: auto;
+}
+.home1 {
+  margin-right: 12px;
+  position: absolute;
+  right: 2px;
+}
+.boxes0 {
+  margin-top: 100px;
+}
+.box1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+}
+.box2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+.rightbox {
+  display: flex;
+  align-items: center;
+}
+.num {
+  margin: 0 8px;
+}
+.done {
+  background-color: aqua;
+  max-width: fit-content;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+  color: #000;
+  border-radius: 5px;
+}
+.done:hover {
+  background-color: rgb(65, 138, 234);
+}
+.btn:hover {
+  color: rgb(43, 202, 219);
+}
